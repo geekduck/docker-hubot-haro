@@ -6,8 +6,7 @@ WORKDIR /opt/node
 RUN apk --no-cache add --virtual .dep wget ca-certificates openssl \
     && wget https://github.com/geekduck/hubot-haro/archive/master.zip \
     && unzip master.zip \
-    && rm master.zip \
-    && apk del .dep
+    && rm master.zip
 
 WORKDIR /opt/node/hubot-haro-master
 
