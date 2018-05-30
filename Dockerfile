@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:8
+FROM mhart/alpine-node:10
 MAINTAINER KAMO Yasuhiro <duck1218+github@gmail.com>
 
 WORKDIR /opt/node
